@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    border: 0;
+   
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+nav{
+    background-color:#02918b;
+    padding: 18px 0;
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style-type:none;
+  
+}
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+   
+}
+a{ color: #fff;
+    text-decoration: none;
+    text-transform:capitalize;
+  
+}
+li a:hover{
+    background-color: rgb(249, 230, 18);
+    color: rgb(3, 8, 2);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*=========banner========*/
+#banner{
+    background-image: url('img/MYFOLIO (1) (1).png');
+    height: 728px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+#banner h1{
+    text-transform: uppercase;
+    font-size: 68px;
+    line-height: 75px;
+    font-weight: 800;
+    letter-spacing: 28px;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+}
+#banner img{
+     display: block;
+     margin: auto;
+    
+}
+ #banner a{
+    line-height: 60px;
+    padding: 10px 4px;
+    background-color: rgb(249, 230, 18);
+    text-align: center;
+    color: black;
+
+}
+#banner a:hover{
+ background-color: #02918b;
+}
+/*=========banner-end=========*/
+/*=========about-me==========*/
+#main h1{
+    color: #02918b;
+    font-size: 36px;
+    text-align: 10%;
+    line-height: 100px;
+    padding-top: 25px;
+}
+.about-me{
+margin: auto;
+font-size: 16px;
+line-height: 41px;
+color: #707776;
+line-height: 25px;
+width: 68%;
+}
+#main {
+height: 640px;
+width: 90%;
+margin: auto;
+}
+#main .about-me{
+    text-align: center;
+}
+/*=========about-me-end=========*/
+/*=========item=========*/
+h5{
+    padding: 20px;
+    font-size: 20px;
+}
+#main .item-1{
+    width: 90%;
+    /* align: center; */
+    text-align: center;
+    padding:15px;
+    /* border-right: 2px;
+    color: #707776; */
+}
+#main .item-2{
+    width: 90%;
+    /* align: center; */
+    text-align: center;
+    padding: 15px;
+    /* border-right: 2px;
+    color: #707776; */
+}
+#main .item-3{
+    width: 90%;
+    /* align: center; */
+    text-align: center;
+    padding: 15px;
+    /* border-right: 2px;
+    color: #707776; */
+
+}
+#main .item-4{
+    width: 90%;
+    /* align: center; */
+    text-align: center;
+    padding: 15px;
+}
+.p{
+    color: #707776;
+}
+/*=========item-end=======*/
+/*=========servise======*/
+.service{
+    width: 90%;
+    margin: auto;
+    /* padding-top: 19%; */
+    background-image: url('img/MYFOLIO\ \(4\).png');
+    height: 600px;
+}
+.service h1{
+    font-size: 46px;
+    color: #02918b;
+    padding: 20px;
+}
+.service-p{
+    font-size: 16px;
+    color: #848b8a; 
+    /* font-weight: 20%; */
+    padding-left: 20px;
+    width: 50%;
+}
+#service-icon{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px ;
+    align-items: center;
+}
+#service-icon h2{
+color: #848b8a;
+width: 180px;
+}
+#service-icon p{
+    color: #848b8a;
+    width: 220px;
+    /* text-align: center; */
+
+}
+/*========service-end======*/
+/*========My-work=======*/
+/* .my-work{
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    align-items:center;
+}
+.my-work h3{
+    font-size: 46px;
+    color: #02918b;
+    text-align: center;
+    margin: auto;
+}
+.my-work p:{
+    font-size: 16px;
+    color: #707776; */
+}
+/*========My-work-end======*/
